@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/../data_types/data_types.iml" filepath="$PROJECT_DIR$/../data_types/data_types.iml" />
       <module fileurl="file://$PROJECT_DIR$/../functions/functions.iml" filepath="$PROJECT_DIR$/../functions/functions.iml" />
       <module fileurl="file://$PROJECT_DIR$/guessing_game.iml" filepath="$PROJECT_DIR$/guessing_game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ownership/ownership.iml" filepath="$PROJECT_DIR$/../ownership/ownership.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../references_and_borrowing/references_and_borrowing.iml" filepath="$PROJECT_DIR$/../references_and_borrowing/references_and_borrowing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../slice_type/slice_type.iml" filepath="$PROJECT_DIR$/../slice_type/slice_type.iml" />
       <module fileurl="file://$PROJECT_DIR$/../variables/variables.iml" filepath="$PROJECT_DIR$/../variables/variables.iml" />
     </modules>
   </component>

@@ -6,14 +6,17 @@
     <cargoProject FILE="$PROJECT_DIR$/../data_types/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/../functions/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/../control_flow/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/../ownership/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/../references_and_borrowing/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/../slice_type/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37ce44c7-7c7c-4bdd-bd4e-7499a6ff6060" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../control_flow/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../control_flow/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data_types/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../data_types/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ownership/ownership.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../references_and_borrowing/references_and_borrowing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../slice_type/slice_type.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../variables/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../variables/Cargo.toml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,53 +70,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../control_flow/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-820">
+            <state>
               <caret column="11" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../variables/Cargo.toml">
+        <entry file="file://$PROJECT_DIR$/../ownership/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="65">
+              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../data_types/Cargo.toml">
+        <entry file="file://$PROJECT_DIR$/../references_and_borrowing/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="765">
+              <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../control_flow/Cargo.toml">
+        <entry file="file://$PROJECT_DIR$/../slice_type/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cargo.toml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cargo.lock">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="6" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="6" />
+            <state relative-caret-position="945">
+              <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -124,6 +109,7 @@
     <findStrings>
       <find>rand</find>
       <find>jinkun.hjk@antfin.com</find>
+      <find>dangle</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/../control_flow</dir>
@@ -144,6 +130,9 @@
         <option value="$PROJECT_DIR$/../variables/Cargo.toml" />
         <option value="$PROJECT_DIR$/../data_types/Cargo.toml" />
         <option value="$PROJECT_DIR$/../control_flow/Cargo.toml" />
+        <option value="$PROJECT_DIR$/../ownership/src/main.rs" />
+        <option value="$PROJECT_DIR$/../references_and_borrowing/src/main.rs" />
+        <option value="$PROJECT_DIR$/../slice_type/src/main.rs" />
       </list>
     </option>
   </component>
@@ -160,9 +149,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="guessing_game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="references_and_borrowing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guessing_game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="references_and_borrowing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guessing_game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="slice_type" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guessing_game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="slice_type" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cargo Command.Run slice_type">
     <configuration name="Run guessing_game" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package guessing_game --bin guessing_game" />
@@ -202,8 +215,50 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Run ownership" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package ownership --bin ownership" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/../ownership" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run references_and_borrowing" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package references_and_borrowing --bin references_and_borrowing" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/../references_and_borrowing" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run slice_type" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package slice_type --bin slice_type" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/../slice_type" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo Command.Run slice_type" />
+        <item itemvalue="Cargo Command.Run references_and_borrowing" />
+        <item itemvalue="Cargo Command.Run ownership" />
         <item itemvalue="Cargo Command.Run guessing_game" />
       </list>
     </recent_temporary>
@@ -228,18 +283,19 @@
       <workItem from="1594730028861" duration="3386000" />
       <workItem from="1594738252994" duration="554000" />
       <workItem from="1594826755500" duration="111000" />
-      <workItem from="1594865016997" duration="532000" />
+      <workItem from="1594865016997" duration="12819000" />
+      <workItem from="1595338951977" duration="4922000" />
+      <workItem from="1595421625788" duration="5276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13833000" />
+    <option name="totallyTimeSpent" value="36318000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -254,7 +310,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -270,6 +326,59 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/result.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="249" column="4" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/str/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="4278" column="11" selection-start-line="4278" selection-start-column="11" selection-end-line="4278" selection-end-column="11" />
+          <folding>
+            <element signature="e#139226#139227#0" expanded="true" />
+            <element signature="e#139264#139265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../variables/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data_types/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../control_flow/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cargo.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -298,63 +407,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cargo.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../control_flow/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-820">
+        <state>
           <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/result.rs">
+    <entry file="file://$PROJECT_DIR$/../references_and_borrowing/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="249" column="4" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="4" />
+        <state relative-caret-position="765">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/str/mod.rs">
+    <entry file="file://$PROJECT_DIR$/../ownership/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="4278" column="11" selection-start-line="4278" selection-start-column="11" selection-end-line="4278" selection-end-column="11" />
-          <folding>
-            <element signature="e#139226#139227#0" expanded="true" />
-            <element signature="e#139264#139265#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="65">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cargo.toml">
+    <entry file="file://$PROJECT_DIR$/../slice_type/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../variables/Cargo.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../data_types/Cargo.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../control_flow/Cargo.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="945">
+          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
         </state>
       </provider>
     </entry>
