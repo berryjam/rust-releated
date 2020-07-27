@@ -10,10 +10,11 @@
     <cargoProject FILE="$PROJECT_DIR$/../references_and_borrowing/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/../slice_type/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/../structs/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/../example_using_structs/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37ce44c7-7c7c-4bdd-bd4e-7499a6ff6060" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../structs/structs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_using_structs/example_using_structs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -102,11 +103,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../structs/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="333">
               <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../example_using_structs/src/main.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="47" column="65" lean-forward="true" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="65" />
+              <folding>
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,6 +160,7 @@
         <option value="$PROJECT_DIR$/../references_and_borrowing/src/main.rs" />
         <option value="$PROJECT_DIR$/../slice_type/src/main.rs" />
         <option value="$PROJECT_DIR$/../structs/src/main.rs" />
+        <option value="$PROJECT_DIR$/../example_using_structs/src/main.rs" />
       </list>
     </option>
   </component>
@@ -164,11 +183,11 @@
           <expand>
             <path>
               <item name="guessing_game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="structs" type="462c0819:PsiDirectoryNode" />
+              <item name="example_using_structs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guessing_game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="structs" type="462c0819:PsiDirectoryNode" />
+              <item name="example_using_structs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -201,15 +220,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cargo Command.Run structs">
-    <configuration name="Run guessing_game" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+  <component name="RunManager" selected="Cargo Command.Run example_using_structs">
+    <configuration name="Run example_using_structs" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --package guessing_game --bin guessing_game" />
+      <option name="command" value="run --package example_using_structs --bin example_using_structs" />
       <option name="allFeatures" value="false" />
       <option name="nocapture" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/../example_using_structs" />
       <envs />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
@@ -269,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo Command.Run example_using_structs" />
         <item itemvalue="Cargo Command.Run structs" />
         <item itemvalue="Cargo Command.Run slice_type" />
         <item itemvalue="Cargo Command.Run references_and_borrowing" />
         <item itemvalue="Cargo Command.Run ownership" />
-        <item itemvalue="Cargo Command.Run guessing_game" />
       </list>
     </recent_temporary>
   </component>
@@ -300,12 +319,12 @@
       <workItem from="1594865016997" duration="12819000" />
       <workItem from="1595338951977" duration="4922000" />
       <workItem from="1595421625788" duration="9022000" />
-      <workItem from="1595671009134" duration="998000" />
+      <workItem from="1595671009134" duration="2264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41062000" />
+    <option name="totallyTimeSpent" value="42328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -453,8 +472,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../structs/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="333">
           <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example_using_structs/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="47" column="65" lean-forward="true" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="65" />
+          <folding>
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
