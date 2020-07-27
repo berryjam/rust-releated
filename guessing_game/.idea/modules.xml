@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../control_flow/control_flow.iml" filepath="$PROJECT_DIR$/../control_flow/control_flow.iml" />
       <module fileurl="file://$PROJECT_DIR$/../data_types/data_types.iml" filepath="$PROJECT_DIR$/../data_types/data_types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../enums_and_pattern_matching/enums_and_pattern_matching.iml" filepath="$PROJECT_DIR$/../enums_and_pattern_matching/enums_and_pattern_matching.iml" />
       <module fileurl="file://$PROJECT_DIR$/../example_using_structs/example_using_structs.iml" filepath="$PROJECT_DIR$/../example_using_structs/example_using_structs.iml" />
       <module fileurl="file://$PROJECT_DIR$/../functions/functions.iml" filepath="$PROJECT_DIR$/../functions/functions.iml" />
       <module fileurl="file://$PROJECT_DIR$/guessing_game.iml" filepath="$PROJECT_DIR$/guessing_game.iml" />
