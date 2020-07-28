@@ -1,5 +1,5 @@
 [package]
-name = "references_and_borrowing"
+name = "managing_growing_projects_with_packages_crates_modules"
 version = "0.1.0"
 authors = ["xxx"]
 edition = "2018"

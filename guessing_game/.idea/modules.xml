@@ -8,8 +8,11 @@
       <module fileurl="file://$PROJECT_DIR$/../example_using_structs/example_using_structs.iml" filepath="$PROJECT_DIR$/../example_using_structs/example_using_structs.iml" />
       <module fileurl="file://$PROJECT_DIR$/../functions/functions.iml" filepath="$PROJECT_DIR$/../functions/functions.iml" />
       <module fileurl="file://$PROJECT_DIR$/guessing_game.iml" filepath="$PROJECT_DIR$/guessing_game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../managing_growing_projects_with_packages_crates_modules/managing_growing_projects_with_packages_crates_modules.iml" filepath="$PROJECT_DIR$/../managing_growing_projects_with_packages_crates_modules/managing_growing_projects_with_packages_crates_modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../my-project/my-project.iml" filepath="$PROJECT_DIR$/../my-project/my-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ownership/ownership.iml" filepath="$PROJECT_DIR$/../ownership/ownership.iml" />
       <module fileurl="file://$PROJECT_DIR$/../references_and_borrowing/references_and_borrowing.iml" filepath="$PROJECT_DIR$/../references_and_borrowing/references_and_borrowing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../restaurant/restaurant.iml" filepath="$PROJECT_DIR$/../restaurant/restaurant.iml" />
       <module fileurl="file://$PROJECT_DIR$/../slice_type/slice_type.iml" filepath="$PROJECT_DIR$/../slice_type/slice_type.iml" />
       <module fileurl="file://$PROJECT_DIR$/../structs/structs.iml" filepath="$PROJECT_DIR$/../structs/structs.iml" />
       <module fileurl="file://$PROJECT_DIR$/../variables/variables.iml" filepath="$PROJECT_DIR$/../variables/variables.iml" />
